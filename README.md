@@ -1,22 +1,38 @@
 # My Other Robot for Education (MORE)
 
+![](https://img.shields.io/badge/CAD-SOLIDWORKS-red)
+![](https://img.shields.io/badge/CAD-FreeCAD-red)
+
+![](https://img.shields.io/badge/EDA-EAGLE-yellow)
+![](https://img.shields.io/badge/CAD-KiCad-yellow)
+
+![](https://img.shields.io/badge/IDE-VSCode-blue)
+![](https://img.shields.io/badge/IDE-Arduino-green)
+
 ## Introduction
 
 Welcome to my repository for my My Other Robot for Education (MORE) project.
 
+<div>
+    <img src="./cad/renders/front.png" style="height:240px;">
+    <img src="./cad/renders/back.png" style="height:240px;">
+</div>
+
 ## Motivation
 
-The motivation of this project was, having developed the LORE robot (see: http://github.com/drfknoble/lore) and seen the limitation of low-cost components, e.g., NZD$5.00 continuous-rotation, servo-motors, on performace, to investigate using more robust components, e.g., stepper motors. So, I decided to make another robot for educational purposes.
+I started this project after developing my LORE robot (see [](http://github.com/DrFKNoble/lore)) and seeing how low-cost components affected the robot's performance.
+
+One of the main problems the robot had was that the continuous rotation servo motors I used would start to "drift" after some time (and would need to be manually tuned when they did). So I decided to build a better robot, which used stepper motors instead on servo motors.
 
 ## Aims
 
-The aims of this project include:
+The aims of this project included:
 - Improving upon LORE's performance by using more robust components.
 - Developing another mobile robot that, this time, can be used to teach students the principles of mechatronics and robotics.
 
 ## Objectives
 
-The objectives of this project include:
+The objectives of this project included:
 - Creating accessible Computer Aided Design (CAD) files.
 - Creating accessible Electronics Design Automation (EDA) files.
 - Creating accessible source code and software libraries.
@@ -30,10 +46,13 @@ The repository is organised as follows:
 /MORE      
     /cad                          
         /solidworks                    
-        /freecad                       
+        /freecad
+        /fabrication
+        /renders                     
     /pcb
         /eagle
         /kicad
+        /fabrication
     /src
     /doc                      
         /img
