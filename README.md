@@ -20,7 +20,7 @@ Welcome to my repository for my My Other Robot for Education (MORE) project.
 
 ## Motivation
 
-I started this project after developing my LORE robot (see [](http://github.com/DrFKNoble/lore)) and seeing how low-cost components affected the robot's performance.
+I started this project after developing my LORE robot (see [http://github.com/DrFKNoble/lore](http://github.com/DrFKNoble/lore)) and seeing how low-cost components affected the robot's performance.
 
 One of the main problems the robot had was that the continuous rotation servo motors I used would start to "drift" after some time (and would need to be manually tuned when they did). So I decided to build a better robot, which used stepper motors instead on servo motors.
 
